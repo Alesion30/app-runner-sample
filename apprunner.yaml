@@ -1,0 +1,12 @@
+version: 1.0
+runtime: node
+build:
+ commands:
+  build:
+  - npm install -g yarn
+  - yarn install
+  - yarn build
+run:
+ command: yarn start
+ network:
+   port: 3000
