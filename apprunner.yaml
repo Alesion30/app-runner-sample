@@ -3,7 +3,6 @@ runtime: Nodejs12
 build:
  commands:
   build:
-  - npm install -g yarn
   - yarn install
   - yarn build
 run:
